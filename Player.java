@@ -11,7 +11,6 @@ public class Player{
     d.roll();
     first=getNum();
     System.out.println("one more please!"+first);
-    Dice d=new Dice();
     d.roll();
     second=getNum();
     System.out.println(second);
