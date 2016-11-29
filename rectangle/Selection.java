@@ -1,5 +1,7 @@
 package com.sd.rectangle;
 class Selection{
+  Selection(){
+  }
   public void select(Rectangle r){
     r.setSelected(true);
     System.out.println("selecte: "+r.isSelected);
